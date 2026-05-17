@@ -6,13 +6,13 @@
 [![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-4285F4.svg?style=flat&logo=googlegemini)](https://aistudio.google.com/)
 [![VirusTotal](https://img.shields.io/badge/ThreatIntel-VirusTotal-3949AB.svg?style=flat&logo=virustotal)](https://www.virustotal.com/)
 
-**Phish-Shield SOC** is an enterprise-grade, resume-level automated Phishing Triage, Analysis, and Case Management platform designed for real Security Operations Center (SOC) Analyst and Blue Team workflows.
+**Phish-Shield SOC** is an enterprise-grade, automated Phishing Triage, Analysis, and Case Management platform designed for real Security Operations Center (SOC) Analyst and Blue Team workflows.
 
-Unlike basic toy programs, this platform parses complex RFC 822 multi-part email packets, runs a multi-weighted heuristic security scoring matrix, queries real-time Threat Intelligence API hubs (VirusTotal), leverages LLMs (Google Gemini) to draft professional level-2 incident briefs, sandboxes HTML body previews, and aggregates everything into a modern, futuristic dark-mode SOC Console.
+Unlike basic toy programs, this platform parses complex RFC 822 multi-part email packets, runs a multi-weighted heuristic security scoring matrix, queries real-time Threat Intelligence API hubs (VirusTotal), leverages LLMs (Google Gemini) to draft professional level-2 incident briefs, sandboxes HTML body previews, and aggregates everything into a SOC Console.
 
 ---
 
-## 🚀 Key Metrics (Add to your Cybersecurity Resume!)
+## 🚀 Key Metrics
 > *"Designed and built an automated phishing detection and investigation platform using Python (FastAPI), VirusTotal API, and Gemini API to classify suspicious emails, prioritize incidents, and generate analyst forensic reports. **Reduced manual SOC triage effort by 70%** through automated threat scoring heuristics, sandboxed preview containment, and one-click incident remediation."*
 
 ---
@@ -89,7 +89,7 @@ Unlike basic toy programs, this platform parses complex RFC 822 multi-part email
    ```bash
    uvicorn main:app --reload --host 127.0.0.1 --port 8000
    ```
-6. Verify the backend is live by opening [http://localhost:8000/](http://localhost:8000/) in your browser.
+6. Verify the backend is live by opening in your browser.
 
 ### 2. Frontend Console Setup
 1. Open a new terminal and navigate to the `frontend/` directory:
@@ -104,7 +104,7 @@ Unlike basic toy programs, this platform parses complex RFC 822 multi-part email
    ```bash
    npm run dev
    ```
-4. Open your browser and navigate to the SOC Console at [http://localhost:3000/](http://localhost:3000/).
+4. Open your browser and navigate to the SOC Console
 5. **No data showing?** Click the glowing purple **"POPULATE SOC DATASET"** banner at the top of the dashboard. This triggers the ingestion engine to automatically parse and load the diverse pre-packaged threat dataset.
 
 ---
