@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: phishing_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - backend_db:/app/data
+    env_file:
+      - ./backend/.env
+    environment:
+      - DATABASE_URL=sqlite:////app/data/phishing_platform.db
+    restart: always
+
+volumes:
+  backend_db:
+    driver: local
