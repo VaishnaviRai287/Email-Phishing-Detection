@@ -12,11 +12,6 @@ Unlike basic toy programs, this platform parses complex RFC 822 multi-part email
 
 ---
 
-## 🚀 Key Metrics
-> *"Designed and built an automated phishing detection and investigation platform using Python (FastAPI), VirusTotal API, and Gemini API to classify suspicious emails, prioritize incidents, and generate analyst forensic reports. **Reduced manual SOC triage effort by 70%** through automated threat scoring heuristics, sandboxed preview containment, and one-click incident remediation."*
-
----
-
 ## 🏛️ System Architecture & Triage Workflow
 
 ```
